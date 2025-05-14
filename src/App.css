@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+#navbar {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+button{
+  width: 110px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  margin: 0 10px;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.movie-card {
+  width: 300px;
+  border-radius: 10px;
+  background-color: #e9dede;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 450px;
+  object-fit: fill;
+}
+
