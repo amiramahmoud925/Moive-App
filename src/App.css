@@ -26,18 +26,26 @@ button{
   gap: 1rem;
 }
 
-.movie-card {
+.movie-card , .tvshow-card , .user-card{
   width: 300px;
   border-radius: 10px;
   background-color: #e9dede;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
+  text-align: center;
   flex-direction: column;
 }
 
-.movie-card img {
+.movie-card img , .tvshow-image{
   width: 100%;
   height: 450px;
   object-fit: fill;
+}
+
+.tvshow-list , .user-list , .actor-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin: 0 10px;
+  gap: 20px;
 }
 
